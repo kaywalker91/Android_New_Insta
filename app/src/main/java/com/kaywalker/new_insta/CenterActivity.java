@@ -1,5 +1,9 @@
 package com.kaywalker.new_insta;
 
+import static com.kaywalker.new_insta.Adapter.ImageAdapter.LoadChangedImage;
+import static com.kaywalker.new_insta.Adapter.ImageAdapter.PIKE_IMAGE_CODE;
+import static com.kaywalker.new_insta.Adapter.ImageAdapter.filepath;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -65,16 +69,16 @@ public class CenterActivity extends AppCompatActivity {
 
     }
 
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-//
-//        super.onActivityResult(requestCode, resultCode, data);
-//        if(requestCode == PIKE_IMAGE_CODE && resultCode == RESULT_OK && data != null && data.getData() != null){
-//            filepath = data.getData();
-//            Picasso.get().load(filepath).into(LoadChangedImage);
-//        }
-//
-//    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == PIKE_IMAGE_CODE && resultCode == RESULT_OK && data != null && data.getData() != null){
+            filepath = data.getData();
+            Picasso.get().load(filepath).into(LoadChangedImage);
+        }
+
+    }
 
     private void setFrag(int n){
         fm = getSupportFragmentManager();

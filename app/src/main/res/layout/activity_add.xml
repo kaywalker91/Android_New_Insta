@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddActivity">
+
+    <ImageView
+        android:padding="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_insta"
+        android:src="@drawable/icon_upload"
+        android:scaleType="centerCrop"
+        android:id="@+id/loadImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/Base.CardView"
+            android:layout_width="250dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_round"
+            android:id="@+id/createChooser"
+            android:text="Choose Image"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/Base.CardView"
+            android:layout_width="250dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_round"
+            android:id="@+id/upload"
+            android:text="Upload Image"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:background="@drawable/button_round"
+            android:id="@+id/viewList"
+            android:text="Back to the Gallery"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/Base.CardView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
