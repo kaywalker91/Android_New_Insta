@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "926845062107",
+    "firebase_url": "https://sns-app-b3580-default-rtdb.firebaseio.com",
+    "project_id": "sns-app-b3580",
+    "storage_bucket": "sns-app-b3580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926845062107:android:f69e5894615a70782235fe",
+        "android_client_info": {
+          "package_name": "com.kaywalker.insta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926845062107-n6pd150uk618v29775e6v1hua8rhrec7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaywalker.insta",
+            "certificate_hash": "ed96432f6aacbacbc173d70f48d2f08fc74f0b26"
+          }
+        },
+        {
+          "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC04TV9fWFE1mtuM0ZiMjWmA8ODlfyYMwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926845062107:android:8aaec8e50107f4b22235fe",
+        "android_client_info": {
+          "package_name": "com.kaywalker.new_insta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC04TV9fWFE1mtuM0ZiMjWmA8ODlfyYMwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926845062107:android:0678fa8e4944c1f32235fe",
+        "android_client_info": {
+          "package_name": "com.kaywalker.newsns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926845062107-jthb5uevseiuosp0836h5m7b78bnn713.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaywalker.newsns",
+            "certificate_hash": "ed96432f6aacbacbc173d70f48d2f08fc74f0b26"
+          }
+        },
+        {
+          "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC04TV9fWFE1mtuM0ZiMjWmA8ODlfyYMwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926845062107:android:84e4830562918cbb2235fe",
+        "android_client_info": {
+          "package_name": "com.kaywalker.sns_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC04TV9fWFE1mtuM0ZiMjWmA8ODlfyYMwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926845062107-loupdvkc67ft0g8hjuu16lrolmsgcp0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
