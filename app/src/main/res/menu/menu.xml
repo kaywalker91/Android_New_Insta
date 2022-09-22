@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_image_search_24"
+        android:title="Gallery"></item>
+
+    <item
+        android:id="@+id/action_borad"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Board"></item>
+
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="User"></item>
+
+    <item
+        android:id="@+id/action_userlist"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="UserList"></item>
+
+</menu>
