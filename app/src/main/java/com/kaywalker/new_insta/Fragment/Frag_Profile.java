@@ -32,21 +32,21 @@ public class Frag_Profile extends Fragment {
 
         view = inflater.inflate(R.layout.fragment_profile, container, false);
 
+        ImageView add_profile = view.findViewById(R.id.add_profile);
+        add_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), UserActivity.class);
+                startActivity(intent);
+            }
+        });
+
         ImageView addBtnChat = view.findViewById(R.id.add_chat);
         addBtnChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), StartActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-            }
-        });
-
-        ImageView add_profile = view.findViewById(R.id.add_profile);
-        add_profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), UserActivity.class);
                 startActivity(intent);
             }
         });
