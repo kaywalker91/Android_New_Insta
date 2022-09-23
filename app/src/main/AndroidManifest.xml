@@ -19,6 +19,9 @@
         android:theme="@style/Theme.New_Insta"
         tools:targetApi="31">
         <activity
+            android:name=".FullScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChatActivity"
             android:exported="false" />
         <activity

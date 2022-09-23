@@ -60,7 +60,6 @@ public class Frag_Home extends Fragment {
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(getContext());
         mLayoutManager.setReverseLayout(true);
         mLayoutManager.setStackFromEnd(true);
-
         recyclerView.setLayoutManager(mLayoutManager);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
