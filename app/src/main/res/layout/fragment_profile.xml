@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/add_profile"
+            android:src="@drawable/btn_profile"
+            android:layout_width="200dp"
+            android:layout_height="100dp">
+        </ImageView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:text="Update Your Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/add_chat"
+            android:src="@drawable/btn_chat"
+            android:layout_width="200dp"
+            android:layout_height="100dp">
+        </ImageView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:text="Chat with Someone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/share_image"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_picture"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Share Beautiful Images"
+            android:textSize="20sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/bn_logout"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/Base.CardView"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+</LinearLayout>
